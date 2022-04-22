@@ -1,0 +1,4 @@
+$ git pull alloy
+$ git checkout branch-to-deploy
+$ heroku git:remote -a app-name
+$ git push heroku branch-to-deploy:main
